@@ -5,7 +5,7 @@
 
 ##### __Created:__ 8/10/2020
 ##### __Last Updated:__ 8/10/2020 
-##### By _**Tyson Lackey & Frederick Ernest**_  
+##### By _**Christine Augustine, Tyson Lackey & Frederick Ernest**_  
 
 
 ## Description
