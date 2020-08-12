@@ -1,0 +1,18 @@
+@{
+  Layout = "_Layout";
+}
+<h1>Welcome to the Recipe Box!</h1>
+
+<ol>
+
+@* Option 1: <form action="/Home/Details" method="post">
+   Option 2: <form asp-controller="Home" asp-action="Details" method="post">*@
+<form action="/Home/Details" method="post">
+  <label for="search">Search</label><br>
+  <input type="text" id="search" name="search"><br>
+  <button type="submit" class="btn btn-primary">Submit!</button>
+</form>
+
+</ol>
+
+<button type="button" class="btn btn-light">@Html.ActionLink("Enter", "Index", "Account")</button>

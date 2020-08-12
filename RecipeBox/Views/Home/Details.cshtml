@@ -1,0 +1,18 @@
+@{
+  Layout = "_Layout";
+}
+
+@using RecipeBox.Models;
+
+<h1>All Articles:</h1>
+@foreach (Article article in Model)
+{
+    <ul>
+        <li>Section: @article.Section.</li>
+        <li>Title: @article.Title</li>
+        <li>Abstract: @article.Abstract)</li>
+        <li>Url: @article.Url)</li>
+        <li>Byline: @article.Byline)</li>
+    </ul>
+    <br>
+}
