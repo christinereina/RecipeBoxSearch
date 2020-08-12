@@ -17,7 +17,11 @@ namespace RecipeBox.Controllers
       var allArticles = Article.GetArticles(EnvironmentVariables.ApiKey);
       for (int i = 0; i < allArticles.Count; i++)
       {
-        if (allArticles[i].Title.ToLower().Contains(search.ToLower()))
+        if (search != null && allArticles[i].Title.ToLower().Contains(search.ToLower()))
+        {
+          searchObject.Add(allArticles[i]);
+        }
+        else
         {
           searchObject.Add(allArticles[i]);
         }
